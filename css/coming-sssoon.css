@@ -775,6 +775,21 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     background-size: cover;
 
 }
+#video_background2 {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    overflow: hidden;
+    background-image: url('../images/dog.jpg');
+    background-position: center center;
+    background-size: cover;
+
+}
 #video_pattern {
     position: fixed;
     opacity: 0.6;
